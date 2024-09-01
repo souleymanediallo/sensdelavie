@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="en" dir="lrt">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="These template is suitable for charity , NGO , non-profit organization , donation , church or a fundraising website.">
+    <meta name="keywords" content="charity, causes, donate, charity foundation, charity hub, charity theme, donations, non profit, fundraiser,social, ngo, non-profit, nonprofit, organization, volunteer">
+    <meta name="author" content="initTheme">
+	  <meta property="og:type" content="website" >
+    <meta property="og:title" content="Charity & Donation HTML Template" >
+    <meta property="og:site_name" content="donate Website" >
+    <meta property="og:site_name" content="Charitfix" >
+    <meta property="og:url" content="www.Charitfix.com" >
+    <meta property="og:image" content="www.Charitfix.com" >
+    <meta property="og:description" content="These template is suitable for charity , NGO ,donate,fundraiser, non-profit organization" >
+    <meta name="twitter:title" content="Charity & Donation HTML Template" >
+    <meta name="twitter:description" content="These template is suitable for charity , NGO ,donate,fundraiser, non-profit organization" >
+    <meta name="twitter:image" content="https://www.sensdelavie.org/" >
+    <meta name="twitter:card" content="summary" >
+    <title>Sens De La Vie - Association Humanitaire de Solidarité Internationale</title>
+    <link rel="icon" type="image/x-icon" sizes="20x20" href="assets/images/icon/favicon.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-5.3.0.min.css' %}">
+    <!-- fonts & icon -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/remixicon.css' %}">
+    <!-- Plugin -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/plugin.css' %}">
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main-style.css' %}">
+    <!-- RTL CSS::When Need RTL Uncomments File -->
+    <!-- <link rel="stylesheet" type="text/css" href="{% static 'css/rtl.css' %}"> -->
+  </head>
+  <body>
+    {% include 'partials/header.html' %}
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <!-- Footer S t a r t -->
+    {% include 'partials/footer.html' %}
+    <!-- End-of Footer -->
+    <!-- Scroll Up  -->
+    <div class="progressParent" id="back-top">
+      <svg class="backCircle svg-inner" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+      </svg>
+    </div>
+    <!-- Add an overlay element -->
+    <div class="overlay"></div>
+    <!-- jquery-->
+    <script src="{% static 'js/jquery-3.7.0.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap-5.3.0.min.js' %}"></script>
+    <!-- Plugin -->
+    <script src="{% static 'js/plugin.js' %}"></script>
+    <!-- Main js-->
+    <script src="{% static 'js/main.js' %}"></script>
+  </body>
+</html>
