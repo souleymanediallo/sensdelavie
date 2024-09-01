@@ -4,48 +4,27 @@
 
 {% block content %}
   <!-- Hero area S t a r t-->
-      <section class="hero-area">
+      <section class="hero-area bg-light mb-5">
         <div class="single-slider hero-padding">
           <div class="container">
             <div class="row justify-content-between">
               <div class="col-xxl-6 col-xl-6 col-lg-6 my-auto">
                 <div class="hero-caption-one mb-20">
-                  <h4 class="key-title font-700 mb-20 wow fadeInUp" data-wow-delay="0.0s">Speak Hope for the Homeless</h4>
-                  <h1 class="title font-700 wow fadeInUp" data-wow-delay="0.1s">Donate to children & senior citizens</h1>
-                  <p class="pera wow fadeInUp" data-wow-delay="0.3s">Involves donating one's body after death for medical research, education, or anatomical dissection. Body donation plays a crucial role in advancing medical science</p>
+                  <h4 class="key-title font-700 mb-20 wow fadeInUp text-uppercase" data-wow-delay="0.0s">Association Sens de la vie</h4>
+                  <h1 class="title wow fadeInUp text-uppercase fw-bold" data-wow-delay="0.1s">au Bénin et en France</h1>
+                  <p class="pera wow fadeInUp" data-wow-delay="0.3s">
+                    Sens de la vie est une association humanitaire de solidarité internationale, sociale, et culturel menant des actions en faveur des populations vulnérables en France et dans le monde.
+                  </p>
                   <div class="d-flex gap-20 flex-wrap">
-                    <a href="donation.html" class="btn-primary-fill hero-btn wow fadeInLeft" data-wow-delay="0.4s">Donate Now</a>
-                    <a href="volunteer.html" class="btn-tertiary-fill hero-btn wow fadeInRight" data-wow-delay="0.4s">Join Volunteers</a>
+                    <a href="donation.html" class="btn-primary-fill hero-btn wow fadeInLeft" data-wow-delay="0.4s">Faire un don</a>
+                    <a href="volunteer.html" class="btn-tertiary-fill hero-btn wow fadeInRight" data-wow-delay="0.4s">Dévenir Bénévole</a>
                   </div>
                 </div>
               </div>
               <div class="col-xxl-6 col-xl-6 col-lg-6">
                 <div class="d-flex gap-44">
                   <div class="hero-image position-relative d-none d-lg-block">
-                    <img src="{% static 'images/hero/hero-1.png' %}" alt="img" class="w-100 tilt-effect wow fadeInUp" data-wow-delay="0.1s">
-                  </div>
-                  <div class="hero-count-section flex flex-column gap-60">
-                    <div class="hero-count wow fadeInUp" data-wow-delay="0.0s">
-                      <h4 class="title">12+</h4>
-                      <p class="pera">
-                        Years of <br>
-                        Experience
-                      </p>
-                    </div>
-                    <div class="hero-count wow fadeInUp" data-wow-delay="0.2s">
-                      <h4 class="title">140+</h4>
-                      <p class="pera">
-                        Thousands <br>
-                        volunteers
-                      </p>
-                    </div>
-                    <div class="hero-count  wow fadeInUp" data-wow-delay="0.3s">
-                      <h4 class="title">500+</h4>
-                      <p class="pera">
-                        Worid wide <br>
-                        Offices
-                      </p>
-                    </div>
+                    <img src="{% static 'images/hero/slider-home.png' %}" alt="img" class="w-100 tilt-effect wow fadeInUp" data-wow-delay="0.1s">
                   </div>
                 </div>
               </div>
@@ -56,50 +35,45 @@
       <!-- End-of Hero-->
 
       <!-- helpful area S t a r t-->
-      <section class="helpful-area">
+      <section class=" mb-5 helpful-area">
         <div class="container">
           <div class="row gy-24">
-            <div class="col-xl-3 col-md-6 col-lg-6">
+            <div class="col-md-4">
               <div class="helpful-card h-calc  wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="helpful-card-icon">
                   <i class="ri-shake-hands-line"></i>
                 </div>
                 <div class="helpful-card-caption">
-                  <h4 class="caption-title">Support</h4>
-                  <p class="caption-para">When deciding which charity to donate to, it important to do your research.</p>
+                  <h4 class="caption-title">Aide à la santé</h4>
+                  <p class="caption-para">
+                    Sensibilisée par la situation sanitaire liée à la faiblesse du système de santé dans certaines régions du monde  l’association sens de la vie vient en aide aux populations vulnérables et démunies
+                  </p>
                 </div>
               </div>
             </div>
-            <div class="col-xl-3 col-md-6 col-lg-6">
+            <div class="col-md-4">
               <div class="helpful-card h-calc  wow fadeInLeft" data-wow-delay="0.0s">
                 <div class="helpful-card-icon">
                   <i class="ri-graduation-cap-line"></i>
                 </div>
                 <div class="helpful-card-caption">
-                  <h4 class="caption-title">Education</h4>
-                  <p class="caption-para">When deciding which charity to donate to, it important to do your research.</p>
+                  <h4 class="caption-title">Aide à l’éducation</h4>
+                  <p class="caption-para">
+                    Déficit d’outils nécessaires à l’apprentissage dans les pays du sud. Sens de la vie milite pour l’accès à une éducation de qualité pour tous apportant une aide aux écoles et aux familles afin que aller à l’école ne soit plus un défi.
+                  </p>
                 </div>
               </div>
             </div>
-            <div class="col-xl-3 col-md-6 col-lg-6">
+            <div class="col-md-4">
               <div class="helpful-card h-calc wow fadeInRight" data-wow-delay="0.0s">
                 <div class="helpful-card-icon">
                   <i class="ri-user-line"></i>
                 </div>
                 <div class="helpful-card-caption">
-                  <h4 class="caption-title">Volunteers</h4>
-                  <p class="caption-para">When deciding which charity to donate to, it important to do your research.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-lg-6">
-              <div class="helpful-card h-calc  wow fadeInRight" data-wow-delay="0.2s">
-                <div class="helpful-card-icon">
-                  <i class="ri-money-dollar-circle-line"></i>
-                </div>
-                <div class="helpful-card-caption">
-                  <h4 class="caption-title">Donations</h4>
-                  <p class="caption-para">When deciding which charity to donate to, it important to do your research.</p>
+                  <h4 class="caption-title">Aide au développement</h4>
+                  <p class="caption-para">
+                  Sens de la vie accompagne et participe au développement local et durable pour accompagner  les populations à devenir plus autonomes et acteurs de leurs développements.
+                  </p>
                 </div>
               </div>
             </div>
@@ -108,164 +82,7 @@
       </section>
       <!-- End-of helpful-->
 
-      <!-- urgent Area S t a r t -->
-      <section class="urgent-area section-padding2">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-xl-7">
-              <!-- Section Tittle -->
-              <div class="section-tittle text-center mb-50">
-                <span class="sub-tittle text-capitalize font-600">In urgent cases</span>
-                <h2 class="title font-700">The best way is to find yourself</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-xxl-7 col-xl-8 col-lg-8 p-0 urgent-area-slide xs-p-12">
-              <!-- Single Slider-->
-              <div class="image-container position-relative h-100">
-                <img class="w-100 h-100" src="{% static 'images/gallery/urgent-1.png' %}" alt="img">
-                <div class="image-overlay-text">
-                  <div class="flex gap-20 mb-10">
-                    <div class="edu flex gap-10">
-                      <i class="ri-file-3-line"></i>
-                      <p class="pera">Education</p>
-                    </div>
-                    <div class="map flex gap-10">
-                      <i class="ri-map-pin-line"></i>
-                      <p class="pera">Africa</p>
-                    </div>
-                  </div>
-                  <div class="overlay-title">
-                    <h4 class="title max-w-567">
-                      Help differently abled children So
-                      feel confident
-                    </h4>
-                  </div>
-                </div>
-              </div>
-              <!-- Single Slider-->
-              <div class="image-container position-relative h-100">
-                <img class="w-100 h-100" src="{% static 'images/gallery/urgent-1.png' %}" alt="img">
-                <div class="image-overlay-text">
-                  <div class="flex gap-20 mb-16">
-                    <div class="edu flex gap-10">
-                      <i class="ri-file-3-line"></i>
-                      <p class="pera">Education</p>
-                    </div>
-                    <div class="map flex gap-10">
-                      <i class="ri-map-pin-line"></i>
-                      <p class="pera">Africa</p>
-                    </div>
-                  </div>
-                  <div class="overlay-title">
-                    <h4 class="title max-w-567">
-                      Help differently abled children So
-                      feel confident
-                    </h4>
-                  </div>
-                </div>
-              </div>
-              <!-- Single Slider -->
-              <div class="image-container position-relative h-100">
-                <img class="w-100 h-100" src="{% static 'images/gallery/urgent-1.png' %}" alt="img">
-                <div class="image-overlay-text">
-                  <div class="flex gap-20 mb-16">
-                    <div class="edu flex gap-10">
-                      <i class="ri-file-3-line"></i>
-                      <p class="pera">Education</p>
-                    </div>
-                    <div class="map flex gap-10">
-                      <i class="ri-map-pin-line"></i>
-                      <p class="pera">Africa</p>
-                    </div>
-                  </div>
-                  <div class="overlay-title">
-                    <h4 class="title max-w-567">
-                      Help differently abled children So
-                      feel confident
-                    </h4>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div class="col-xxl-3 col-xl-4 col-lg-4 p-0 xs-p-12">
-              <div class="image-right-card">
-                <div class="tab-section tab-section-one" id="tab-section-one">
-                  <div class="counting-day flex gap-10 mb-10">
-                    <i class="ri-time-line"></i>
-                    <p class="pera">652 Days Remaining</p>
-                  </div>
-                  <div>
-                    <h4 class="title">The Universal Hands-free lighting Solution</h4>
-                  </div>
-                  <div>
-                    <p class="subtitle">Fund programs that help children escape poverty by providing vocational training.</p>
-                  </div>
-                  <div class="progress custom-progress">
-                    <div class="progress-bar" style="width: 65%">
-                      <p class="pera">65%</p>
-                    </div>
-                  </div>
-                  <div class="flex justify-content-between mt-8">
-                    <div class="charges">
-                      <h4 class="title">Goals</h4>
-                      <p class="pera">$15.000</p>
-                    </div>
-                    <div class="charges">
-                      <h4 class="title">Raised</h4>
-                      <p class="pera">$15.000</p>
-                    </div>
-                    <div class="forward-btn">
-                      <i class="ri-reply-fill"></i>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-section tab-section-two" id="tab-section-two">
-                  <div class="counting-day flex gap-10 mb-10">
-                    <i class="ri-time-line"></i>
-                    <p class="pera">652 Days Remaining</p>
-                  </div>
-                  <div>
-                    <h4 class="title">The Universal Hands-free lighting Solution</h4>
-                  </div>
-                  <div>
-                    <p class="subtitle">Fund programs that help children escape poverty by providing vocational training.</p>
-                  </div>
-                  <div class="progress custom-progress">
-                    <div class="progress-bar" style="width: 25%">
-                      <p class="pera">25%</p>
-                    </div>
-                  </div>
-                  <div class="flex justify-content-between mt-8">
-                    <div class="charges">
-                      <h4 class="title">Goals</h4>
-                      <p class="pera">$15.000</p>
-                    </div>
-                    <div class="charges">
-                      <h4 class="title">Raised</h4>
-                      <p class="pera">$15.000</p>
-                    </div>
-                    <div class="forward-btn">
-                      <i class="ri-reply-fill"></i>
-                    </div>
-                  </div>
-                </div>
-                <div class="flex justify-content-center mt-30">
-                  <div class="tab-btn">
-                    <a href="javascript:void(0)" class="urgent-tab active" data-tab-id="tab-section-one">Donate</a>
-                    <a href="javascript:void(0)" class="urgent-tab" data-tab-id="tab-section-two">Details</a>
-                  </div>
-                </div>
-
-                <!-- Your tab sections remain the same -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End-of urgent area -->
 
       <!-- Any Question Area S t a r t -->
       <section class="question-area bottom-padding">
@@ -274,137 +91,130 @@
             <div class="col-lg-7 my-auto">
               <!-- Section Tittle -->
               <div class="section-tittle mb-50">
-                <h2 class="title font-700">Any Questions</h2>
-                <p class="pera">When deciding which charity to donate to, it's important to do your search and find one that aligns with your values and interests.</p>
+                <h2 class="title font-700">
+                  Réponses à vos questions
+                </h2>
+                <p class="pera">
+                  Découvrez les réponses en ligne aux questions les plus fréquemment posées.
+                  Si vous ne trouvez pas la réponse à votre question, vous pouvez nous contacter.
+                </p>
               </div>
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Have you weighed the potential risks and benefits?</button>
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Comment devenir bénévole ?</button>
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">When deciding which charity to donate to, it's important to do your search.</div>
+                    <div class="accordion-body">
+                      En complétant le formulaire directement via le site vous pouvez également nous contacter par email ou téléphone (voir nos contacts).
+                    </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed additional-styles" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">How will you gather feedback from stakeholders</button>
+                    <button class="accordion-button collapsed additional-styles" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Comment sont utilisés les dons ?</button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">When deciding which charity to donate to, it's important to do your search.</div>
+                    <div class="accordion-body">
+                      Vos dons permet de financer nos projets et sont utilisés pour soutenir nos actions.
+                      Vous pouvez également donner pour un projet en le précisant.
+                      Nous appliquons la transparence sur l’utilisation de vos dons comme notre charte l’indique.
+                    </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed additional-styles" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">There any sustainability or ethical to take into account?</button>
+                    <button class="accordion-button collapsed additional-styles" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      D'où vient le nom sens de la vie ?
+                    </button>
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">When deciding which charity to donate to, it's important to do your search.</div>
+                    <div class="accordion-body">
+                        Le nom de l’association a été choisi pour rappeler l’importance de la solidarité et de l’entraide dans la vie de chacun.
+                        Le plus souvent nous cherchons à donner un sens à notre vie, faire don de soi et aider les autres c’est aussi un moyen de donner un sens à sa vie!! Alors donnons sans attente pour la joie pure de donner.
+                    </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingFour">
-                    <button class="accordion-button collapsed additional-styles" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">There any sustainability or ethical to take into account?</button>
+                    <button class="accordion-button collapsed additional-styles" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Les actions de sens de la vie s'adressent-elles uniquement à la population française et du Nord du Bénin ?
+                    </button>
                   </h2>
                   <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">When deciding which charity to donate to, it's important to do your search.</div>
+                    <div class="accordion-body">
+                        L’association a débuter avec cette zone de couverture mais notre but est de s’élargir vers Les populations en détresse dans le monde. N’hésitez pas à nous contacter pour toutes demandes en adéquation avec nos compétences et nos valeurs.
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-5">
-              <img class="w-100 d-none d-lg-block tilt-effect" src="{% static 'images/gallery/que.png' %}" alt="image">
+              <img class="w-100 d-none d-lg-block tilt-effect" src="{% static 'images/hero/sante.png' %}" alt="image">
             </div>
           </div>
         </div>
       </section>
       <!-- End-of Question Area -->
 
-      <!-- Our event S t a r t-->
-      <section class="our-event bottom-padding">
+     <!-- Our event S t a r t-->
+      <section class="our-event-two mb-5">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-xl-7">
-              <!-- Section Tittle -->
-              <div class="section-tittle text-center mb-50">
-                <span class="sub-tittle text-capitalize font-600">Our event</span>
-                <h2 class="title font-700">Our Upcoming Events</h2>
-              </div>
+                <!-- Section Tittle -->
+                <div class="section-tittle text-center mb-50">
+                  <span class="sub-tittle text-capitalize font-600">Nos événements</span>
+                  <h2 class="title font-700">Rencontrez l'équipe Sens de La Vie</h2>
+                </div>
             </div>
           </div>
           <div class="row gy-24">
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 view-wrapper">
+            <div class="col-md-6">
               <div class="single-event h-calc wow fadeInUp" data-wow-delay="0.0s">
                 <div class="event-img position-relative">
-                  <a href="event-details.html"> <img src="{% static 'images/gallery/event-2.png' %}" class="img-fluid w-100" alt="img"> </a>
+                  <a href="event-details.html"> <img src="{% static 'images/gallery/even-1.png' %}"  alt="img"> </a>
+                  <div class="image-overlay-text">
+                    <div class="flex gap-30 mb-30 flex-wrap">
+                      <div class="date flex gap-10">
+                        <i class="ri-calendar-2-line"></i>
+                        <p class="pera">23 et 24 août 2024</p>
+                      </div>
+                      <div class="time flex gap-10 align-items-center">
+                        <i class="ri-time-line"></i>
+                        <p class="info">8h00 - 14h00 </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="event-info">
-                  <div class="d-flex justify-content-between align-items-center gap-6">
-                    <div class="event-info-title">
-                      <div class="flex gap-15 mb-18 align-items-center flex-wrap">
-                        <div class="date flex gap-12 align-items-center">
-                          <i class="ri-time-line"></i>
-                          <p class="info">30 Jun 2023</p>
-                        </div>
-                        <div class="map flex gap-12 align-items-center">
-                          <i class="ri-map-pin-line"></i>
-                          <p class="info">South . Korea</p>
-                        </div>
-                      </div>
-                      <h4><a class="title text-capitalize" href="event-details.html">Free medical camping</a></h4>
-                    </div>
-                    <a href="event-details.html" class="btn-arrow"><i class="ri-arrow-right-line"></i></a>
-                  </div>
+                  <h4><a class="title" href="event-details.html">Dépistage et conseils sur les maladies non transmissibles (MNT)</a></h4>
+                  <a href="event-details.html" class="author-name">- Lieu : Centre de santé Gaounga</a>
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 view-wrapper">
-              <div class="single-event h-calc wow fadeInUp" data-wow-delay="0.1s">
+            <div class="col-md-6">
+              <div class="single-event h-calc wow fadeInUp" data-wow-delay="0.0s">
                 <div class="event-img position-relative">
-                  <a href="event-details.html"> <img src="{% static 'images/gallery/event-3.png' %}" class="img-fluid w-100" alt="img"> </a>
-                </div>
-                <div class="event-info">
-                  <div class="d-flex justify-content-between align-items-center gap-6">
-                    <div class="event-info-title">
-                      <div class="flex gap-15 mb-18 align-items-center flex-wrap">
-                        <div class="date flex gap-12 align-items-center">
-                          <i class="ri-time-line"></i>
-                          <p class="info">30 Jun 2023</p>
-                        </div>
-                        <div class="map flex gap-12 align-items-center">
-                          <i class="ri-map-pin-line"></i>
-                          <p class="info">South . Korea</p>
-                        </div>
+                  <a href="event-details.html"> <img src="{% static 'images/gallery/even-1.png' %}"  alt="img"> </a>
+                  <div class="image-overlay-text">
+                    <div class="flex gap-30 mb-30 flex-wrap">
+                      <div class="date flex gap-10">
+                        <i class="ri-calendar-2-line"></i>
+                        <p class="pera">23 et 24 août 2024</p>
                       </div>
-                      <h4><a class="title text-capitalize" href="event-details.html">Free medical camping</a></h4>
+                      <div class="time flex gap-10 align-items-center">
+                        <i class="ri-time-line"></i>
+                        <p class="info">8h00 - 14h00 </p>
+                      </div>
                     </div>
-                    <a href="event-details.html" class="btn-arrow"><i class="ri-arrow-right-line"></i></a>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 view-wrapper">
-              <div class="single-event h-calc wow fadeInUp" data-wow-delay="0.2s">
-                <div class="event-img position-relative">
-                  <a href="event-details.html"> <img src="{% static 'images/gallery/event-2.png' %}" class="img-fluid w-100" alt="img"> </a>
-                </div>
                 <div class="event-info">
-                  <div class="d-flex justify-content-between align-items-center gap-6">
-                    <div class="event-info-title">
-                      <div class="flex gap-15 mb-18 align-items-center flex-wrap">
-                        <div class="date flex gap-12 align-items-center">
-                          <i class="ri-time-line"></i>
-                          <p class="info">30 Jun 2023</p>
-                        </div>
-                        <div class="map flex gap-12 align-items-center">
-                          <i class="ri-map-pin-line"></i>
-                          <p class="info">South . Korea</p>
-                        </div>
-                      </div>
-                      <h4><a class="title text-capitalize" href="event-details.html">Free medical camping</a></h4>
-                    </div>
-                    <a href="event-details.html" class="btn-arrow"><i class="ri-arrow-right-line"></i></a>
-                  </div>
+                  <h4><a class="title" href="event-details.html">Dépistage et conseils sur les maladies non transmissibles (MNT)</a></h4>
+                  <a href="event-details.html" class="author-name">- Lieu : Centre de santé Gaounga</a>
                 </div>
               </div>
             </div>
@@ -413,7 +223,65 @@
       </section>
       <!-- End-of All Product -->
 
-
+      <!-- helpful area S t a r t-->
+      <section class="helpful-area-two section-padding">
+        <div class="container">
+          <div class="row gy-24">
+            <div class="col-xl-4 col-md-6 col-lg-6">
+              <div class="helpful-card-two wow fadeInUp" data-wow-delay="0.0s">
+                <div class="helpful-card-icon">
+                  <i class="ri-book-open-line"></i>
+                </div>
+                <div class="helpful-card-caption">
+                  <h4 class="caption-title">Projet santé</h4>
+                  <p class="caption-para">
+                    Aide à la santé des populations vulnérables et démunies. Sens de la vie mène des actions de sensibilisation et de prévention pour lutter contre les maladies.
+                  </p>
+                  <a class="caption-link" href="javascript:void(0)">En savoir plus <i class="ri-arrow-right-s-line"></i></a>
+                </div>
+                <div class="number-watermark">
+                  <h4 class="number">01</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-lg-6">
+              <div class="helpful-card-two wow fadeInUp" data-wow-delay="0.1s">
+                <div class="helpful-card-icon">
+                  <i class="ri-first-aid-kit-line"></i>
+                </div>
+                <div class="helpful-card-caption">
+                  <h4 class="caption-title">Projet éducation</h4>
+                  <p class="caption-para">
+                    Sens de la vie milite pour l’accès à une éducation de qualité pour tous apportant une aide aux écoles et aux familles afin que aller à l’école ne soit plus un défi.
+                  </p>
+                  <a class="caption-link" href="javascript:void(0)">En savoir plus <i class="ri-arrow-right-s-line"></i></a>
+                </div>
+                <div class="number-watermark">
+                  <h4 class="number">02</h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-lg-6">
+              <div class="helpful-card-two wow fadeInUp" data-wow-delay="0.3s">
+                <div class="helpful-card-icon">
+                  <i class="ri-global-line"></i>
+                </div>
+                <div class="helpful-card-caption">
+                  <h4 class="caption-title">Projet développement</h4>
+                  <p class="caption-para">
+                    Sens de la vie accompagne et participe au développement local et durable pour accompagner  les populations à devenir plus autonomes et acteurs de leurs développements.
+                  </p>
+                  <a class="caption-link" href="javascript:void(0)">En savoir plus <i class="ri-arrow-right-s-line"></i></a>
+                </div>
+                <div class="number-watermark">
+                  <h4 class="number">03</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End-of helpful-->
 
       <!-- Blog S t a r t -->
       <section class="blog-section bottom-padding">
@@ -422,8 +290,8 @@
             <div class="col-xl-7">
               <!-- Section Tittle -->
               <div class="section-tittle text-center mb-50">
-                <span class="sub-tittle text-capitalize font-600">Blog</span>
-                <h2 class="title font-700">Our Blog & Feeds</h2>
+                <span class="sub-tittle text-capitalize font-600">Nos Actualités</span>
+                <h2 class="title font-700">Suivez et partagez nos actualités</h2>
               </div>
             </div>
           </div>
